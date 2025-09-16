@@ -107,15 +107,17 @@ The dataset consists of **5 main tables** used to analyze: <br>
 | `Profit`                | Profit earned from the order         |
 | `Payment Mode`          | Mode of payment (COD, Online, Cards) |
 
+</details> 
+
 **2. Table Relationships**
 
 <img width="676" height="321" alt="image" src="https://github.com/user-attachments/assets/9cde6ce7-cfa1-4840-8f9e-ddb903ebe7a9" /> <br>
 
 | **From Table**    | **To Table**    | **Join Key**        | **Relationship Type**                                      |
 |-------------------|-----------------|---------------------|------------------------------------------------------------|
-| `Orders`          | `Customers`     | `Customer ID `      | 
-| `Orders`          | `Products`      | `Product ID`        |
-| `Orders`          | `Returns`       | `Order ID`          |
+| `Orders`          | `Customers`     | `Customer ID `      | Many-to-One
+| `Orders`          | `Products`      | `Product ID`        | Many-to-One
+| `Orders`          | `Returns`       | `Order ID`          | 
 | `Orders`          | `Calendar`      | `Order Date` (from `Orders` table) <br> `Date` (from `Calendar` table) |
 
 
