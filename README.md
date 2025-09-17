@@ -8,6 +8,8 @@
 ## Table of Contents
 1. [📌Background & Overview](#background--overview)
 2. [📂Dataset Overview](#dataset-overview)
+3. [📊Visualizations & Key Insights](#visualizations--key-insights)
+4. [🔎Final Conclusion and Recommendations](#final-conclusion-and-recommendations)
 ---
 
 ## 📌Background & Overview
@@ -128,12 +130,78 @@ The dataset consists of **5 main tables** used to analyze: <br>
 **🎯Target:** Analyze current sales performance <br>
 **💡Key visuals and Insights:** <br>
 **1. General remarks** <br>
+- Revenue reached $1.57M and profit hit $175.26K, both increasing more than 100% YoY. → Growth was primarily driven by increased order volume, not by improved operational efficiency (profit margin decreased 22.75% YoY). <br>
+- Customers increased only 21.16%, but orders surged 128.37%; Average Order Value (AOV) slightly increased at 21.42%. → Indicates strong repeat purchase behavior, with smaller but more frequent orders. <br>
+
 **2. Revenue and Profit Margin by Segment** <br>
+- The Consumer segment generated $0.75M, the highest among all segments. <br>
+- Among segments, profit margin fluctuated from 11% to 12%. → Indicates steady demand. <br>
+
 **3. Revenue and Profit Margin by Category** <br>
+- Office-supplier products generated the highest revenue. → Suggests customers have a strong preference for office-supplier products. <br>
+- However, tech products showed the highest profit margin → Indicated that there is potential for growth. <br>
+
 **4. Revenue by Region and Category** <br>
+- The West region showed the highest revenue. <br>
+- Office-supplier products generated the highest revenue across all regions. → Suggests customers have a strong preference for office-supplier products over other categories. <br>
+
 **5. Total Orders and Average Order Value (AOV) by Region** <br>
+The number of orders was unevenly distributed across the regions. The West region had the highest number of orders at 961, followed by the East (844 orders), Central (711 orders), and South (487 orders). Despite the differences in order volume, the Average Order Value (AOV) across all regions was quite consistent, ranging from $475-$545 per order. <br>
 
+### 📍Page 2: Market Analysis <br>
 
+<img width="633" height="358" alt="image" src="https://github.com/user-attachments/assets/3a572b01-e25b-46a1-8d80-e57938ef0efe" /> <br>
+
+**🎯Target:** Analyze sales performance among regions <br>
+**💡Key visuals and Insights:** <br>
+**1. Business Performance among regions** <br>
+- Revenue grew across all regions in 2020. <br>
+- Meanwhile, from 2019 to 2020, Profit Margin in the Central and South regions decreased significantly. In contrast, the East and West regions maintained a stable profit margin over the same period. <br>
+
+**2.  Number of customers by Region** <br>
+- New customers grew at a steady rate across all regions. However, there was a significant disparity in the number of returning customers. The West region had the highest number of returning customers (276), which indicates the strong performance of its customer loyalty programs.
+
+**3. Total profit by Region and Category** <br>
+- The West region showed the highest profit among the 4 regions. <br>
+- Office-supplier products generated the highest profit across all regions. → Suggests that office-supplier products have high profitability over other categories. <br>
+
+**4. Top states have the highest revenue** <br>
+- California topped the revenue list, and it comes from the West region. <br>
+
+**5. Order Quantity and Return Quantity by Region** <br>
+- The West region topped the number of orders, returns, and return rate list. <br>
+- The West region led the highest return rate (7.28%). → Other regions had stable return rates (1–3%). <br>
+
+### 📍Page 3: Product Analysis <br>
+
+<img width="634" height="359" alt="image" src="https://github.com/user-attachments/assets/3c0f9b9f-421d-4434-8bc4-cd37da3b2328" /> <br>
+
+**🎯Target:** Analyze sales performance among products <br>
+**💡Key visuals and Insights:** <br>
+**1. Revenue and Profit Margin by Subcategory** <br>
+- Phones lead in revenue, Envelopes and Fasteners lag behind in revenue. <br>
+- Copier (71.61%), Accessories (20.72%), and Envelopes (21.21%) stand out for profit margins. While Table (-9.3%), Suppliers (-4.5%), and Bookcases (-0.06%) underperform with negative profit margins. <br>
+
+**2. Top Subcategory has the highest profit** <br>
+- Copiers and Accessories stand out as the most profitable items, generating $18K and $12K in profit, respectively. In contrast, Bookcases showed no profit, while both Supplies and Tables recorded a net loss. <br>
+
+**3. Orders, Customers, Returns Rate by Subcategory** <br>
+Although Copiers and Accessories are our most profitable items, the number of customers and orders is only average. In fact, Copiers have the lowest number of customers and orders among all subcategories. This suggests that these products have a very high profit margin per unit, compensating for their low sales volume. <br>
+
+**4. Total Profit by Segment and Category** <br>
+- Consumer is the largest and most profitable customer segment, generating the highest total profit. <br>
+- The Technology category is the top profit driver across all customer segments. This indicates that technology products are highly profitable regardless of who the customer is. <br>
+
+**5. Revenue and Profit by Ship Mode** <br>
+- Standard Class is the most popular shipping method, generating the highest revenue and profit. → Shows that most customers prioritize cost over speed. <br>
+
+## 🔎Final Conclusion and Recommendations
+
+| **Strategy** | **Insights** | **Recommendations** |
+|--------------|--------------|---------------------|
+| **Market Expansion Strategy** | The West region is the key driver of business growth, combining strong profitability and customer loyalty. However, its high return rate poses a risk to sustainable performance. | - Strengthen return management and quality control in the West to reduce loss from returns. <br> -Leverage customer loyalty in the West by expanding retention programs to other regions. <br> - Replicate best practices from California’s sales strategy to boost revenue in underperforming states. |
+| **Product Portfolio Optimization** | High profitability is concentrated in Copiers, Accessories, and the Technology category, while several subcategories (Tables, Supplies, Bookcases) weaken overall margins. | - Scale up Copiers and Accessories by expanding reach to more customers. <br> -  Reassess or phase out consistently unprofitable subcategories. <br> -  Leverage the Technology category’s strong performance to capture broader market opportunities. <br> - Maintain focus on Standard Class while testing premium delivery options for upselling. |
+| **Operational Efficiency** | On the operational side, Standard Class shipping and COD payments dominate, reflecting customer preference for cost efficiency and convenience, but also creating pressure on logistics and cash-handling processes. | On the operational side, Standard Class shipping and COD payments dominate, reflecting customer preference for cost efficiency and convenience, but also creating pressure on logistics and cash-handling processes. |
 
 
 
