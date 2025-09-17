@@ -115,10 +115,24 @@ The dataset consists of **5 main tables** used to analyze: <br>
 
 | **From Table**    | **To Table**    | **Join Key**        | **Relationship Type**                                      |
 |-------------------|-----------------|---------------------|------------------------------------------------------------|
-| `Orders`          | `Customers`     | `Customer ID `      | Many-to-One
-| `Orders`          | `Products`      | `Product ID`        | Many-to-One
-| `Orders`          | `Returns`       | `Order ID`          | 
-| `Orders`          | `Calendar`      | `Order Date` (from `Orders` table) <br> `Date` (from `Calendar` table) |
+| `Orders`          | `Customers`     | `Customer ID `      | Many-to-One (one customer made many orders)                |
+| `Orders`          | `Products`      | `Product ID`        | Many-to-One (one product in many orders)
+| `Orders`          | `Returns`       | `Order ID`          | Many-to-One ( a single order ID can appear on multiple rows in the `Orders` table (representing different products), but a full order return is consolidated into a single entry in the `Returns` table|
+| `Orders`          | `Calendar`      | `Order Date` (from `Orders` table) <br> `Date` (from `Calendar` table) | Many-to-One (many orders are created on a day) |
+
+## 📊Visualizations & Key Insights <br>
+### 📍Page 1: Overview <br>
+
+<img width="634" height="358" alt="image" src="https://github.com/user-attachments/assets/ed7042ba-7c0e-405e-abb7-d790731c0b83" /> <br>
+
+**🎯Target:** Analyze current sales performance <br>
+**💡Key visuals and Insights:** <br>
+**1. General remarks** <br>
+**2. Revenue and Profit Margin by Segment** <br>
+**3. Revenue and Profit Margin by Category** <br>
+**4. Revenue by Region and Category** <br>
+**5. Total Orders and Average Order Value (AOV) by Region** <br>
+
 
 
 
